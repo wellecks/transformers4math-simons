@@ -4,21 +4,24 @@ Simons Institute and SLMath Joint Workshop: AI for Mathematics and Theoretical C
 
 
 ### Contents
-#### Background and implementation
-Work through these notebooks to see details of how a transformer language model is implemented and how training is implemented.
+We provide Google Colab notebooks that have the required environment and files.
 
-1. **Notebook 1: Bigram model**: a very simple language model based on counting consecutive tokens.
-2. **Notebook 2: Transformer**: implement a train a simple Transformer language model.
+1. **Bigram model**: <a href="https://colab.research.google.com/github/wellecks/transformers4math-simons/blob/main/1_bigram/bigrams_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+      - A very simple language model based on counting consecutive tokens.
+
+2. **Transformer**: <a href="https://colab.research.google.com/github/wellecks/transformers4math-simons/blob/main/2_transformer/transformer_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+      - Implement and train a simple Transformer language model.
+
+3. **Addition**: <a href="https://colab.research.google.com/github/wellecks/transformers4math-simons/blob/main/3_addition/addition_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+      - Train a model for four-digit addition.
+4. **Triangle-free graphs**: <a href="https://colab.research.google.com/github/wellecks/transformers4math-simons/blob/main/4_graphs/graphs_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+      - Train a model to generate triangle-free graphs.
 
 *Note*: you can safely skip notebook 1 and 2 if you are primarily interested in using existing transformer libraries for different applications.
 
-#### Applications:
-Work through these notebooks to see how to use the Makemore library to train transformers on different datasets.
+## (Optional) Local Setup
 
-3. **Notebook 3: Addition**: train a model for four-digit addition.
-4. **Notebook 4: Triangle-free graphs**: train a model to generate triangle-free graphs.
-
-## Setup
+If you would like to run the notebooks locally instead of on Colab please follow these instructions.
 
 Install [uv](https://github.com/astral-sh/uv). See [installation
 instructions](https://docs.astral.sh/uv/getting-started/installation/)
