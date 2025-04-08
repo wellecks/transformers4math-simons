@@ -9,5 +9,6 @@ dependencies = [
     "matplotlib>=3.10.1",
     "networkx>=3.4.2",
     "numpy>=2.2.4",
+    "tensorboard>=2.19.0",
     "torch>=2.6.0",
 ]
