@@ -2,6 +2,8 @@
 
 Simons Institute and SLMath Joint Workshop: AI for Mathematics and Theoretical Computer Science, April 8 2025
 
+[[Slides](welleck2025_transformers_simons.pdf)]
+
 
 ### Contents
 We provide Google Colab notebooks that have the required environment and files.
